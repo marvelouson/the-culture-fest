@@ -1,0 +1,96 @@
+body {
+    background-color: #E5D2BA;
+    font-family: 'Nunito', sans-serif;
+    position: static;
+}
+
+strong {
+    font-weight: 800;
+}
+
+.text-white {
+    color: #E5D2BA;
+}
+
+.nav-link {
+    color: #06654f;
+}
+
+.nav-link:hover {
+    color: #f5ac48;
+}
+
+.carousel-indicators {
+    bottom: -100px;
+}
+
+.carousel-indicators li{
+    width: 50px;
+    margin-left: 20px;
+    background-color: #f5ac48;
+}
+
+.carousel-indicators .active {
+    background-color: #06654f;
+}
+
+.btn {
+    background-color: #06654f;
+}
+
+.main li {
+    bottom: -80px;
+    padding-bottom: 10px;
+}
+
+img {
+    border-radius: 3%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #842c24;
+}
+
+.main-bg {
+    position: absolute;
+    background: url(../img/bg.svg);
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 0, 4% 0, 55% 100%, 0% 100%);
+    margin-left: -38px;
+    margin-top: -36px;
+}
+
+.sign-up {
+    background-color: #741A08;
+}
+
+footer {
+    background-color: #471005;
+}
+
+.fa-ul li {
+    margin: 10px;
+}
+
+/* ABOUT PAGE */
+
+#funfair-bg {
+    border-radius: 0;
+    filter: brightness(0.3);
+    clip-path: inset(25% 0 25% 0);
+    margin-bottom: -400px;
+    position: relative;
+}
+
+span i {
+    color: #06654f;
+}
+
+#about-info {
+    font-size: 2rem;
+}
+
+.icons {
+    position: relative;
+}
